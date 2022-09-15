@@ -1,0 +1,9 @@
+import heroes.*
+import misiones.*
+
+program heroes {
+	shrek.agregarMision(liberarAFiona)
+	shrek.agregarMision(buscarPiedraFilosofal)
+	console.println(shrek.solicitantesDeMisMisiones())
+	console.println(liberarAFiona.esDificil())
+}
